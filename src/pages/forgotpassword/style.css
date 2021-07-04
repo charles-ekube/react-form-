@@ -1,0 +1,129 @@
+@media only screen and (min-device-width: 200px) and (max-device-width: 620px) and (-webkit-min-device-pixel-ratio: 1) {
+    .forgot-password-container {
+        background: #EDEDED;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .forgot-password-header {
+        color:#01195A;
+        padding :5px 0 15px 0;
+        font-size: 18px;
+    }
+    .forgot-password-form {
+        background:#fff;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .forgot-password-form-header {
+        color:#415383;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .form-group {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        margin:10px 0;
+        position: relative;
+    }
+    .form-group label {
+        color:#5A5A5A;
+        padding:10px 0;
+        font-size: 15px;
+    }
+    .form-group input {
+        border: 1px solid #C4C4C4;
+        padding:15px 5px;
+        border-radius: 5px;
+    }
+    .form-group small {
+        color:#5A5A5A;
+        padding: 10px 0;
+        font-size: 15px;
+    }
+
+    .form-group img {
+        width: 30px;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+    }
+    .forgot-password-quick-links ul {
+        display:flex;
+        padding:20px 0 10px 0;
+    }
+    .forgot-password-quick-links ul li {
+        margin-right: 15px;
+        font-size: 15px;
+        color:#84B5FB;
+    }
+    
+}
+@media only screen and (min-device-width: 621px) and (max-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 1) {
+    .forgot-password-container {
+        background: #EDEDED;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .forgot-password-header {
+        color:#01195A;
+        padding :5px 0 15px 0;
+        font-size: 18px;
+    }
+    .forgot-password-form {
+        background:#fff;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .forgot-password-form-header {
+        color:#415383;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .form-group {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        margin:10px 0;
+        position: relative;
+    }
+    .form-group label {
+        color:#5A5A5A;
+        padding:10px 0;
+        font-size: 18px;
+    }
+    .form-group input {
+        border: 1px solid #C4C4C4;
+        padding:17px 5px;
+        border-radius: 5px;
+    }
+    .form-group small {
+        color:#5A5A5A;
+        padding: 10px 0;
+        font-size: 17px;
+    }
+
+    .form-group img {
+        width: 30px;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+    }
+    .forgot-password-quick-links ul {
+        display:flex;
+        padding:20px 0 10px 0;
+    }
+    .forgot-password-quick-links ul li {
+        margin-right: 15px;
+        font-size: 17px;
+        color:#84B5FB;
+    }
+}
