@@ -1,0 +1,490 @@
+.container {
+    padding: 30px 10px;
+}
+
+.card-container p, li {
+    color:#738EAD;
+}
+.card-container h3 {
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.card-container span {
+    color:#FFFFFF;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 5px 0;
+    letter-spacing: 0.6px;
+}
+
+.card-container h4 {
+    color: #000;
+}
+.card-header {
+    background: #3A89F8;
+    border-radius: 10px 10px 0 0;
+}
+.card-content {
+    background: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 0;
+}
+.card-content p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 25px;
+    padding:5px 0 20px 0;
+    
+}
+.card-content h4 {
+    font-size: 0.9rem;
+    font-weight:500;
+    padding: 10px 0 5px 0;
+}
+.card-content ul {
+    padding-bottom: 20px;
+}
+.card-content li {
+    list-style-type: none;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    padding: 10px 0;
+    
+}
+.list-grid {
+    display:flex;
+
+}
+.list-grid span {
+   border-radius: 50%;
+   background: #01195A;
+   height: 1px;
+   width: 1px;
+   padding:4px;
+   margin: 7px 20px 0 0;
+}
+#long, #short {
+    color:#000;
+    font-weight: 500;
+}
+.sub-list-grid {
+    position: relative;
+    top: 30px;
+    left: -30px;
+}
+
+.list-grid p, .sub-list-grid p {
+    padding: 0;
+}
+.sub-list-grid span {
+    padding: 3px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.sub-list-grid p {
+    font-size: 0.6rem;
+}
+
+#information {
+    color:#01195A;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.site {
+    color:#777777;
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding:0 0 5px 0;
+}
+.site-list-item {
+    font-size: 0.78rem;
+    font-weight: 500;
+    list-style: none;
+    padding:5px 0;
+    color:#3A89F8;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+hr {
+    position: relative;
+    width: 100%;
+    background: #EDEDED;
+    border:none;
+    padding: 0.5px;
+}
+
+
+@media only screen and (min-device-width: 200px)  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .container {
+        padding: 30px 10px;
+    }
+    .padding-sm {
+        padding: 10px 10px;
+    }
+    .padding-lg {
+        padding: 10px 10px;
+    }
+    .card-container p, li {
+        color:#738EAD;
+    }
+    .card-container h3 {
+        color:#FFFFFF;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 5px 0;
+    }
+    .card-container span {
+        color:#FFFFFF;
+        font-size: 0.7rem;
+        font-weight: 400;
+        padding: 5px 0;
+        letter-spacing: 0.6px;
+    }
+    
+    .card-container h4 {
+        color: #000;
+    }
+    .card-header {
+        background: #3A89F8;
+        border-radius: 10px 10px 0 0;
+    }
+    .card-content {
+        background: #FFFFFF;
+        border-radius: 0 0 10px 10px;
+        padding: 10px 0;
+    }
+    .card-content p {
+        font-size: 0.7rem;
+        font-weight: 400;
+        line-height: 25px;
+        padding:5px 0 20px 0;
+        
+    }
+    .card-content h4 {
+        font-size: 0.9rem;
+        font-weight:500;
+        padding: 10px 0 5px 0;
+    }
+    .card-content ul {
+        padding-bottom: 20px;
+    }
+    .card-content li {
+        list-style-type: none;
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 0.04rem;
+        padding: 10px 0;
+        
+    }
+    .list-grid {
+        display:flex;
+    
+    }
+    .list-grid span {
+       border-radius: 50%;
+       background: #01195A;
+       height: 1px;
+       width: 1px;
+       padding:4px;
+       margin: 7px 20px 0 0;
+    }
+    #long, #short {
+        color:#000;
+        font-weight: 500;
+    }
+    .sub-list-grid {
+        position: relative;
+        top: 30px;
+        left: -30px;
+    }
+    
+    .list-grid p, .sub-list-grid p {
+        padding: 0;
+    }
+    .sub-list-grid span {
+        padding: 3px;
+        margin-right: 10px;
+        margin-top: 8px;
+    }
+    .sub-list-grid p {
+        font-size: 0.6rem;
+    }
+    
+    #information {
+        color:#01195A;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    .site {
+        color:#777777;
+        font-size: 0.78rem;
+        font-weight: 500;
+        padding:0 0 5px 0;
+    }
+    .site-list-item {
+        font-size: 0.78rem;
+        font-weight: 500;
+        list-style: none;
+        padding:5px 0;
+        color:#3A89F8;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+    hr {
+        position: relative;
+        width: 100%;
+        background: #EDEDED;
+        border:none;
+        padding: 0.5px;
+    }
+}
+@media only screen and (min-device-width: 768px)  and (-webkit-min-device-pixel-ratio: 1) {
+    
+    .container {
+        padding: 50px 200px;
+    }
+    .padding-sm {
+    padding: 10px 20px 5px 20px ;
+}
+.padding-lg {
+    padding: 10px 100px ;
+}
+.card-container p, li {
+    color:#738EAD;
+}
+.card-container h3 {
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.card-container span {
+    color:#FFFFFF;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 5px 0;
+    letter-spacing: 0.6px;
+}
+
+.card-container h4 {
+    color: #000;
+}
+.card-header {
+    background: #3A89F8;
+    border-radius: 10px 10px 0 0;
+}
+.card-content {
+    background: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 0;
+}
+.card-content p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 25px;
+    padding:5px 0 20px 0;
+    
+}
+.card-content h4 {
+    font-size: 0.9rem;
+    font-weight:500;
+    padding: 10px 0 5px 0;
+}
+.card-content ul {
+    padding-bottom: 20px;
+}
+.card-content li {
+    list-style-type: none;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    padding: 10px 0;
+    
+}
+.list-grid {
+    display:flex;
+
+}
+.list-grid span {
+   border-radius: 50%;
+   background: #01195A;
+   height: 1px;
+   width: 1px;
+   padding:4px;
+   margin: 7px 20px 0 0;
+}
+#long, #short {
+    color:#000;
+    font-weight: 500;
+}
+.sub-list-grid {
+    position: relative;
+    top: 30px;
+    left: -30px;
+}
+
+.list-grid p, .sub-list-grid p {
+    padding: 0;
+}
+.sub-list-grid span {
+    padding: 3px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.sub-list-grid p {
+    font-size: 0.6rem;
+}
+
+#information {
+    color:#01195A;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.site {
+    color:#777777;
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding:0 0 5px 0;
+}
+.site-list-item {
+    font-size: 0.78rem;
+    font-weight: 500;
+    list-style: none;
+    padding:5px 0;
+    color:#3A89F8;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+hr {
+    position: relative;
+    width: 100%;
+    background: #EDEDED;
+    border:none;
+    padding: 0.5px;
+}
+    
+}
+
+.padding-sm {
+    padding: 10px 20px 5px 20px !important;
+}
+.padding-lg {
+    padding: 10px 100px !important;
+}
+.card-container p, li {
+    color:#738EAD;
+}
+.card-container h3 {
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.card-container span {
+    color:#FFFFFF;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 5px 0;
+    letter-spacing: 0.6px;
+}
+
+.card-container h4 {
+    color: #000;
+}
+.card-header {
+    background: #3A89F8;
+    border-radius: 10px 10px 0 0;
+}
+.card-content {
+    background: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 0;
+}
+.card-content p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 25px;
+    padding:5px 0 20px 0;
+    
+}
+.card-content h4 {
+    font-size: 0.9rem;
+    font-weight:500;
+    padding: 10px 0 5px 0;
+}
+.card-content ul {
+    padding-bottom: 20px;
+}
+.card-content li {
+    list-style-type: none;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    padding: 10px 0;
+    
+}
+.list-grid {
+    display:flex;
+
+}
+.list-grid span {
+   border-radius: 50%;
+   background: #01195A;
+   height: 1px;
+   width: 1px;
+   padding:4px;
+   margin: 7px 20px 0 0;
+}
+#long, #short {
+    color:#000;
+    font-weight: 500;
+}
+.sub-list-grid {
+    position: relative;
+    top: 30px;
+    left: -30px;
+}
+
+.list-grid p, .sub-list-grid p {
+    padding: 0;
+}
+.sub-list-grid span {
+    padding: 3px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.sub-list-grid p {
+    font-size: 0.6rem;
+}
+
+#information {
+    color:#01195A;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.site {
+    color:#777777;
+    font-size: 0.78rem;
+    font-weight: 500;
+    padding:0 0 5px 0;
+}
+.site-list-item {
+    font-size: 0.78rem;
+    font-weight: 500;
+    list-style: none;
+    padding:5px 0;
+    color:#3A89F8;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+hr {
+    position: relative;
+    width: 100%;
+    background: #EDEDED;
+    border:none;
+    padding: 0.5px;
+}

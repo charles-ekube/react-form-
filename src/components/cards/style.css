@@ -1,0 +1,210 @@
+.container {
+    padding: 30px 10px;
+}
+.card-container {
+    width:100%;
+    margin:auto;
+}
+.padding-lg {
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+}
+.padding-sm {
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+
+.card-container h3 {
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+}
+.card-header span {
+    color:#FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-container h4 {
+    color: #000;
+}
+.card-header {
+    background: #3A89F8;
+    border-radius: 8px 8px 0 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.card-content {
+    background: #FFFFFF;
+    border-radius: 0 0 8px 8px;
+    
+}
+.card-content p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #545C70;
+    padding-bottom:20px;    
+}
+.card-content h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+}
+.card-content ul {
+    /* padding-bottom: 20px; */
+}
+.card-content li {
+    list-style-type: none;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    /* padding: 10px 0; */
+    
+}
+.list-grid {
+    display:flex;
+    padding:10px 0;
+}
+.list-grid span {
+   border-radius: 50%;
+   background: #01195A;
+   height: 1px;
+   width: 1px;
+   padding:4px;
+   margin: 7px 20px 0 0;
+}
+#long, #short {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    color: #222222;
+
+}
+.sub-list-grid {
+    position: relative;
+    top: 20px;
+    left: -30px;
+    padding-bottom:20px;
+}
+
+.list-grid p, .sub-list-grid p {
+    padding: 0;
+}
+.sub-list-grid span {
+    padding: 3px;
+    margin-right: 10px;
+    margin-top: 2px;
+    background: #545C70;
+}
+.sub-list-grid p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #545C70;
+}
+
+#information {
+    color:#01195A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding:15px 0 0 20px; 
+}
+.site {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #646464;
+}
+.site-list-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding:3px 0 5px 0;
+    color:#3A89F8;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+hr {
+    position: relative;
+    width: 100%;
+    background: #EDEDED;
+    border:none;
+    padding: 0.5px;
+}
+.services-list p b {
+    font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+letter-spacing: 0.5px;
+color: #000000;
+}
+.services-list li ul {
+    padding-left:20px;
+}
+.services-list li ul li {
+    display:flex;
+}
+#services-bullet {
+    border-radius: 50%;
+   background: #01195A;
+   height: 1px;
+   width: 1px;
+   padding:3px;
+   margin: 7px 20px 0 0;
+}
+#bottom-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    color: #222222;
+}
+@media only screen and (min-device-width: 768px)  and (-webkit-min-device-pixel-ratio: 1)  {
+    .container {
+        /* padding: 50px 200px; */
+    }
+    .padding-lg {
+        padding-top: 12px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+    padding-bottom: 12px !important;
+    }
+    .padding-sm {
+        padding-top: 12px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 12px !important;
+    }
+    .card-container {
+        width:680px;
+        margin:auto;
+    }
+    .card-container h3 {
+        color:#FFFFFF;
+        font-size: 1rem;
+        font-weight: 500;
+        padding:  0;
+    }
+    
+}
